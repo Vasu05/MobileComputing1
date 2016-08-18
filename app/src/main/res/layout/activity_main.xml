@@ -69,7 +69,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Right"
+                        android:text="Correct"
                         android:layout_weight="1"
                         android:padding="12dp"
                         android:textSize="18sp"
@@ -79,7 +79,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Wrong"
+                        android:text="Incorrect"
                         android:padding="12dp"
                         android:layout_weight="1"
                         android:textSize="18sp"
@@ -88,7 +88,7 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Skip"
+                        android:text="Next"
                         android:layout_weight="1"
                         android:padding="12dp"
                         android:textSize="18sp"
