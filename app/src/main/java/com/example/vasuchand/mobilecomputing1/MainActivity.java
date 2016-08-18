@@ -39,8 +39,12 @@ public class MainActivity extends AppCompatActivity {
                 checkforprime();
                 if (flag1 == 1) {
                     result.setText("Correct");
+                     Toast.makeText(MainActivity.this,
+                            "correct", Toast.LENGTH_LONG).show();
                 } else {
                     result.setText("Not Correct");
+                    Toast.makeText(MainActivity.this,
+                            "not correct", Toast.LENGTH_LONG).show();
                 }
             }
         });
@@ -50,8 +54,12 @@ public class MainActivity extends AppCompatActivity {
                 checkforprime();
                 if (flag1 == 1) {
                     result.setText("Not Correct");
+                    Toast.makeText(MainActivity.this,
+                            "not correct", Toast.LENGTH_LONG).show();
                 } else {
                     result.setText("Correct");
+                     Toast.makeText(MainActivity.this,
+                            "correct", Toast.LENGTH_LONG).show();
                 }
             }
         });
