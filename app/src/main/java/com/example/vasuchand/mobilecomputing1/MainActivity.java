@@ -7,6 +7,7 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.widget.TextView;
 import android.widget.Toast;
+
 import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
@@ -38,13 +39,13 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 checkforprime();
                 if (flag1 == 1) {
-                    result.setText("Correct");
-                     Toast.makeText(MainActivity.this,
-                            "correct", Toast.LENGTH_LONG).show();
-                } else {
-                    result.setText("Not Correct");
+                    result.setText("Right");
                     Toast.makeText(MainActivity.this,
-                            "not correct", Toast.LENGTH_LONG).show();
+                            "right", Toast.LENGTH_LONG).show();
+                } else {
+                    result.setText("Wrong");
+                    Toast.makeText(MainActivity.this,
+                            "Wrong", Toast.LENGTH_LONG).show();
                 }
             }
         });
@@ -53,13 +54,13 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 checkforprime();
                 if (flag1 == 1) {
-                    result.setText("Not Correct");
+                    result.setText("Wrong");
                     Toast.makeText(MainActivity.this,
-                            "not correct", Toast.LENGTH_LONG).show();
+                            "Wrong", Toast.LENGTH_LONG).show();
                 } else {
-                    result.setText("Correct");
-                     Toast.makeText(MainActivity.this,
-                            "correct", Toast.LENGTH_LONG).show();
+                    result.setText("Right");
+                    Toast.makeText(MainActivity.this,
+                            "Right", Toast.LENGTH_LONG).show();
                 }
             }
         });
