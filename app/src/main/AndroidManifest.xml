@@ -15,6 +15,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".hint"
+            android:label="@string/title_activity_hint"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".cheat">
+
+        </activity>
     </application>
 
 </manifest>
